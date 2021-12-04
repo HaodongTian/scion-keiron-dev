@@ -50,11 +50,11 @@ Alert/Text/ResearchComplete=研究完毕
 Alert/Text/TrainComplete_Keir=单位完成
 Alert/Text/TrainWorkerComplete=单位完成
 Alert/Text/UpgradeComplete=升级完成
-Alert/Text/WarpTrainComplete_Keir=形体化完成
+Alert/Text/WarpTrainComplete_Keir=实体化完成
 Attribute001/Name=Custom Race
 Attribute001/Value001/Name=Keiron
 Attribute001/Value002/Name=Default
-Behavior/Name/AegisShield=虚空盾
+Behavior/Name/AegisShield=埃吉斯护盾
 Behavior/Name/Beholder=观察者
 Behavior/Name/CitadelEnergized=已充能
 Behavior/Name/Disconnected=!已断连
@@ -63,19 +63,19 @@ Behavior/Name/HarbingerJudgementMode=突击者 - 审判模式
 Behavior/Name/HarbingerJudgementModeStart=突击者 - 审判模式开启
 Behavior/Name/HarbingerJudgementModeStop=突击者 - 审判模式关闭
 Behavior/Name/IsParagon=!无畏舰
-Behavior/Name/KeironMaterializing=形体化中
+Behavior/Name/KeironMaterializing=实体化中
 Behavior/Name/NoCreate=!无法创造
 Behavior/Name/ParadoxShieldBoost=护盾过载
 Behavior/Name/ParagonHasSpawn=!无畏舰召唤完毕
 Behavior/Name/ParagonSpawnCount=!无畏舰再生队列
 Behavior/Name/ParagonSpawnFollow=!无畏舰再生跟随
 Behavior/Name/TitanWeapon=抑制光束
-Behavior/Tooltip/AegisShield=该单位由虚空盾保护，无法攻击
+Behavior/Tooltip/AegisShield=该单位由埃吉斯护盾保护，无法攻击
 Behavior/Tooltip/EmissaryOrbTint=此单位正在被伊风球锁定。
-Behavior/Tooltip/KeironMaterializing=正在形体化
+Behavior/Tooltip/KeironMaterializing=正在实体化
 Button/ChargeText/KeironProductionStructures=<d ref="$BehaviorStackCount:KeironUnitCharge$"/>
 Button/Name/ActivateShield=启动护盾
-Button/Name/Aegis=形体化虚空盾
+Button/Name/Aegis=实体化埃吉斯护盾
 Button/Name/AnisopteraWings=复翼
 Button/Name/ApertureTeleport=虫洞
 Button/Name/ApertureUnloadAll=全部卸载
@@ -88,7 +88,7 @@ Button/Name/ChargeCitadel=深空堡垒充能
 Button/Name/Citadel=塑造深空堡垒
 Button/Name/CitadelEnergize=充能
 Button/Name/Conduit=塑造数据中枢
-Button/Name/Converter=形体化转化者
+Button/Name/Converter=实体化转化者
 Button/Name/CreateElytron=制造蝉翼攻击机
 Button/Name/DevelopAmplifiedSphere=研究球状增幅
 Button/Name/DevelopAnisopteraWings=研究复翼
@@ -127,23 +127,23 @@ Button/Name/KeironShieldsLevel1=升级一级护盾
 Button/Name/KeironShieldsLevel2=升级二级护盾
 Button/Name/KeironShieldsLevel3=升级三级护盾
 Button/Name/LatentCharge=潜影充能
-Button/Name/MaterializeAirUnits=形体化空中单位
-Button/Name/MaterializeAperture=形体化光能穿梭机
-Button/Name/MaterializeAurora=形体化极光战机
-Button/Name/MaterializeEcho=形体化回声
-Button/Name/MaterializeGroundUnits=形体化地面单位
-Button/Name/MaterializeHarbinger=形体化突击者
-Button/Name/MaterializeInducer=形体化诱导者
-Button/Name/MaterializeMeridian=形体化归零者
-Button/Name/MaterializeMyriad=形体化无量战甲
-Button/Name/MaterializeParadox=形体化帕拉德舰
-Button/Name/MaterializeParagon=形体化无畏舰
-Button/Name/MaterializePariah=形体化放逐者
-Button/Name/MaterializePulsar=形体化脉冲星
-Button/Name/MaterializeSubjecter=形体化征服者
-Button/Name/MaterializeTitan=形体化泰坦
-Button/Name/MaterializeUmbra=形体化幽影
-Button/Name/MaterializeVolt=形体化电狐
+Button/Name/MaterializeAirUnits=实体化空中单位
+Button/Name/MaterializeAperture=实体化光能穿梭机
+Button/Name/MaterializeAurora=实体化极光战机
+Button/Name/MaterializeEcho=实体化回声
+Button/Name/MaterializeGroundUnits=实体化地面单位
+Button/Name/MaterializeHarbinger=实体化突击者
+Button/Name/MaterializeInducer=实体化诱导者
+Button/Name/MaterializeMeridian=实体化归零者
+Button/Name/MaterializeMyriad=实体化无量战甲
+Button/Name/MaterializeParadox=实体化帕拉德舰
+Button/Name/MaterializeParagon=实体化无畏舰
+Button/Name/MaterializePariah=实体化放逐者
+Button/Name/MaterializePulsar=实体化脉冲星
+Button/Name/MaterializeSubjecter=实体化征服者
+Button/Name/MaterializeTitan=实体化泰坦
+Button/Name/MaterializeUmbra=实体化幽影
+Button/Name/MaterializeVolt=实体化电狐
 Button/Name/MeridianConvergence=聚能风暴
 Button/Name/MeridianLightningBolt=闪电弹
 Button/Name/MeridianSycophant=谄媚者
@@ -167,8 +167,8 @@ Button/Name/SonicImage=声像
 Button/Name/Stratus=塑造层云炮塔
 Button/Name/UmbraCloakingSystems=隐形系统
 Button/Name/Zenith=塑造天蓬
-Button/Tooltip/ActivateShield=激活虚空盾，使其内所有友军单位不受攻击。敌军部队无法进入盾牌区域。
-Button/Tooltip/Aegis=强大的防御结构。可以使用重新定位和激活虚空盾。<n/><n/><c val="FFFF80">可以攻击地面和空中单位。</c>
+Button/Tooltip/ActivateShield=激活埃吉斯护盾，使其内所有友军单位不受攻击。敌军部队无法进入盾牌区域。
+Button/Tooltip/Aegis=强大的防御结构。可以使用重新定位和激活埃吉斯护盾。<n/><n/><c val="FFFF80">可以攻击地面和空中单位。</c>
 Button/Tooltip/AnisopteraWings=提升 <c val="FFFF80">蝉翼攻击机</c>的移动速度。
 Button/Tooltip/Aperture=运输单位，可以升级以使用虫洞。
 Button/Tooltip/ApertureTeleport=将目标单位传送给施法单位。消耗能量。成本因目标单位的大小而异。
@@ -183,14 +183,16 @@ Button/Tooltip/Citadel=主要建筑。用于创建所有Keiron单位并接收收
 Button/Tooltip/CitadelCharged=主要建筑。用于创建所有Keiron单位并接收收集的资源。可以使用充能。
 Button/Tooltip/CitadelEnergize=提高移动速度、护甲和附近单位的回复速度。<n/><n/><c val="FFFF80">同时提高工人采矿速度</c>
 Button/Tooltip/Conduit=基础空中科技设施<n/><n/><c val="FFFF80">允许从：</c><n/>  - 深空堡垒中制造回声
-Button/Tooltip/Converter=基础工作单位。可以收集资源并塑形Keiron建筑。<n/><n/><c val="ffff8a">可以攻击地面单位</c>
+Button/Tooltip/Converter=基础工作单位。可以收集资源并塑造Keiron建筑。<n/><n/><c val="ffff8a">可以攻击地面单位</c>
 Button/Tooltip/CreateElytron=生产自动攻击目标的蝉翼攻击机
 Button/Tooltip/DevelopAmplifiedSphere=提升<c val="FFFF80">征服者</c>的攻击距离。
 Button/Tooltip/DevelopAnisopteraWings=提升<c val="FFFF80">蝉翼攻击机</c>的移动速度。
 Button/Tooltip/DevelopConvergence=允许<c val="FFFF80">归零者</c>使用聚能风暴技能。
 Button/Tooltip/DevelopDissonanceProjector=回声在异调模式下会隐身。
-Button/Tooltip/DevelopExaltedShields=<c val="FFFF80">放逐者</c> 护盾值+10。使用虫洞技能。
+Button/Tooltip/DevelopExaltedShields=<c val="FFFF80">放逐者</c> 护盾值+10。
+Button/Tooltip/DevelopKeyhole=允许<c val="FFFF80">光能穿梭机</c>使用虫洞技能。
 Button/Tooltip/DevelopLatentCharge=允许<c val="FFFF80">电狐</c>的武器对额外一名目标造成<d ref="Effect,ElectronBoltBDMG,Amount"/>点伤害。
+Button/Tooltip/DevelopModifiedGait=提升<c val="FFFF80">电狐</c>和<c val="FFFF80">放逐者</c>的移动速度。
 Button/Tooltip/DevelopWraithChamber=提升<c val="FFFF80">幽影</c>的武器攻击范围，并在隐形时造成额外伤害。
 Button/Tooltip/DiscordMode=回声进入静止状态，减缓敌方单位的移动速度并使区域内的隐形单位显形。
 Button/Tooltip/Echo=空中近战战机，可以使用异调模式和混响。<n/><n/><c val="FFFF80">可以攻击空中单位。</c>
@@ -199,14 +201,14 @@ Button/Tooltip/Elysium=高级科技设施。<n/><n/><c val="FFFF80">允许从：
 Button/Tooltip/Elytron=自动攻击成为无量战甲目标的战斗小队<n/><n/><c val="#ColorAttackInfo">可以攻击地面单位。</c>
 Button/Tooltip/Emanator=在一个区域内提供视野的固定计时单位。<n/><n/><c val="FFE303">侦测者</c>
 Button/Tooltip/EmissaryOrb=对首要目标造成<d ref="Effect,EmissaryOrbDMG,Amount"/>点伤害。造成范围伤害。
-Button/Tooltip/Empyrean=高级空中科技设施。<n/><n/><c val="FFFF80">允许从：</c><n/>  - 深空堡垒中制造突袭者<n/>  - 深空堡垒中制造帕拉德舰
+Button/Tooltip/Empyrean=高级空中科技设施。<n/><n/><c val="FFFF80">允许从：</c><n/>  - 深空堡垒中制造突击者<n/>  - 深空堡垒中制造帕拉德舰
 Button/Tooltip/FighterModeEcho=回声恢复正常形态，使其能够移动和攻击。
 Button/Tooltip/Formulator=塑造在气泉上方，允许获取气体。
 Button/Tooltip/FormulatorRich=塑造在气泉上方，允许获取气体。
 Button/Tooltip/Foundry=高级科技设施。<n/><n/><c val="FFFF80">允许从：</c><n/>  - 深空堡垒中制造幽影
 Button/Tooltip/Harbinger=攻击型护卫舰。可以使用审判模式。<n/><n/><c val="FFFF80">可以攻击地面于空中单位</c>
-Button/Tooltip/HarbingerExitJudgementMode=将突袭者变回正常模式
-Button/Tooltip/HarbingerJudgementMode=当处于审判模式，突袭者对空中单位造成范围伤害。但是造成 <d ref="-Behavior,HarbingerJudgementMode,Modification.MoveSpeedMultiplier+1*100"/>% 的减速并无法对地面单位进行攻击。
+Button/Tooltip/HarbingerExitJudgementMode=将突击者变回正常模式
+Button/Tooltip/HarbingerJudgementMode=当处于审判模式，突击者对空中单位造成范围伤害。但是受到 <d ref="-Behavior,HarbingerJudgementMode,Modification.MoveSpeedMultiplier+1*100"/>% 的减速并无法对地面单位进行攻击。
 Button/Tooltip/Inducer=发射球体的攻城单位，在再次发射前必须将球体返回。<n/><n/><c val="FFFF80">可以攻击地面于空中单位</c>
 Button/Tooltip/InhibitorBeam=泰坦的武器能够对敌方单位造成 <d ref="-Behavior,TitanWeapon,Modification.MoveSpeedMultiplier+1*100" precision="1"/>%的移动减速，与<d ref="-Behavior,TitanWeapon,Modification.AttackSpeedMultiplier+1*100" precision="1"/>%的攻击减速.
 Button/Tooltip/KeironBioArmorLevel1=升级生物单位的护甲
@@ -234,21 +236,21 @@ Button/Tooltip/MaterializeGroundUnits=地面单位列表
 Button/Tooltip/MaterializeHarbinger=由<c val="FFFF80">至高天</c>生产。<n/><n/>攻击型护卫舰。可以使用审判模式。<n/><n/><c val="FFFF80">可以攻击地面和空中单位。</c>
 Button/Tooltip/MaterializeInducer=由<c val="FFFF80">中央教条</c>生产。<n/><n/>发射球体的攻城单位，在再次发射前必须将球体返回。<n/><n/><c val="FFFF80">可以攻击地面和空中单位</c>
 Button/Tooltip/MaterializeMeridian=由<c val="FFFF80">伊利斯矩阵</c>生产。<n/><n/>施法单位。可以使用观察者与闪电弹技能。可以升级从而使用聚能风暴。<n/><n/><c val="FFFF80">可以攻击地面和空中单位</c>
-Button/Tooltip/MaterializeMyriad=由<c val="FFFF80">中央教条</c>.<n/><n/>攻城单位，可以生产并使用蝉翼攻击机。<n/><n/><c val="FFFF80">可以攻击地面单位。</c>
-Button/Tooltip/MaterializeParadox=由<c val="FFFF80">至高天</c>.<n/><n/>支援单位。可以使用护盾过载与画地为牢。<n/><n/><c val="FFE303">侦测单位</c>
-Button/Tooltip/MaterializeParagon=由<c val="FFFF80">天蓬</c>.<n/><n/>主力舰船。可以使用伊风球。<n/><n/><c val="FFFF80">可以攻击地面和空中单位。</c>
-Button/Tooltip/MaterializePariah=由<c val="FFFF80">高塔</c>.<n/><n/>轻型近战单位，可以使用冲刺。<n/><n/><c val="FFFF80">可以攻击地面单位。</c>
-Button/Tooltip/MaterializePulsar=由<c val="FFFF80">圣所</c>.<n/><n/>持久型近距离作战单位。<n/><n/><c val="FFFF80">可以攻击地面单位。</c>
-Button/Tooltip/MaterializeSubjecter=由<c val="FFFF80">圣所</c>.<n/><n/>远程防空支援单位。<n/><n/><c val="FFFF80">可以攻击地面和空中单位。</c>
-Button/Tooltip/MaterializeTitan=由<c val="FFFF80">诸神殿堂</c>.</n><n/>重型突击单位。<n/><n/><c val="FFFF80">可以攻击地面单位。</c>
-Button/Tooltip/MaterializeUmbra=由<c val="FFFF80">铸造厂</c>.<n/><n/>战术隐身与反护甲专家。<n/><n/><c val="FFFF80">可以攻击地面单位。</c>
-Button/Tooltip/MaterializeVolt=由<c val="FFFF80">高塔</c>.<n/><n/>轻型远程战斗单位。<n/><n/><c val="FFFF80">可以攻击地面和空中单位。</c>
+Button/Tooltip/MaterializeMyriad=由<c val="FFFF80">中央教条</c>生产。<n/><n/>攻城单位，可以生产并使用蝉翼攻击机。<n/><n/><c val="FFFF80">可以攻击地面单位。</c>
+Button/Tooltip/MaterializeParadox=由<c val="FFFF80">至高天</c>生产。<n/><n/>支援单位。可以使用护盾过载与画地为牢。<n/><n/><c val="FFE303">侦测单位</c>
+Button/Tooltip/MaterializeParagon=由<c val="FFFF80">天蓬</c>生产。<n/><n/>主力舰船。可以使用伊风球。<n/><n/><c val="FFFF80">可以攻击地面和空中单位。</c>
+Button/Tooltip/MaterializePariah=由<c val="FFFF80">高塔</c>生产。<n/><n/>轻型近战单位，可以使用冲刺。<n/><n/><c val="FFFF80">可以攻击地面单位。</c>
+Button/Tooltip/MaterializePulsar=由<c val="FFFF80">圣所</c>生产。<n/><n/>持久型近距离作战单位。<n/><n/><c val="FFFF80">可以攻击地面单位。</c>
+Button/Tooltip/MaterializeSubjecter=由<c val="FFFF80">圣所</c>生产。<n/><n/>远程防空支援单位。<n/><n/><c val="FFFF80">可以攻击地面和空中单位。</c>
+Button/Tooltip/MaterializeTitan=由<c val="FFFF80">诸神殿堂</c>生产。</n><n/>重型突击单位。<n/><n/><c val="FFFF80">可以攻击地面单位。</c>
+Button/Tooltip/MaterializeUmbra=由<c val="FFFF80">铸造厂</c>生产。<n/><n/>战术隐身与反护甲专家。<n/><n/><c val="FFFF80">可以攻击地面单位。</c>
+Button/Tooltip/MaterializeVolt=由<c val="FFFF80">高塔</c>生产。<n/><n/>轻型远程战斗单位。<n/><n/><c val="FFFF80">可以攻击地面和空中单位。</c>
 Button/Tooltip/Meridian=施法单位。可以使用观察者与闪电弹技能。可以升级从而使用聚能风暴。<n/><n/><c val="FFFF80">可以攻击地面和空中单位。</c>
 Button/Tooltip/MeridianConvergence=对范围内造成<d ref="Effect,MeridianConvergenceDMG,Amount"/> (+<d ref="Effect,MeridianConvergenceDMG,AttributeBonus[Mechanical]"/> vs Mechanical)点伤害与<d ref="Effect,MeridianConvergenceCP,InitialDelay"/>秒后。
 Button/Tooltip/MeridianLightningBolt=对首个目标造成<d ref="Effect,MeridianLightningBoltInitDMG,Amount"/>点伤害。可以对<d ref="Effect,MeridianLightningBoltData,ValidateMax"/>个额外单位造成<d ref="Effect,MeridianLightningBoltDMG,Amount"/>点伤害。
 Button/Tooltip/MeridianSycophant=攻击单位时可恢复5点能量。同时减少被攻击单位的能量。
 Button/Tooltip/Myriad=攻城单位，可以生产并使用蝉翼攻击机。<n/><n/><c val="FFFF80">可以攻击地面单位。</c>
-Button/Tooltip/Nullifier=对空防御建筑<n/><n/><c val="ffff8a">可以攻击地面单位。</c>
+Button/Tooltip/Nullifier=对地防御建筑<n/><n/><c val="ffff8a">可以攻击地面单位。</c>
 Button/Tooltip/Oculus=能够给予地图上远距离的区域视野。<n/><n/><c val="FFE303">侦测单位</c>
 Button/Tooltip/Outlet=高级空中科技设施。<n/><n/><c val="FFFF80">允许从：</c><n/>  - 深空堡垒中制造光能穿梭机<n/>  - 深空堡垒中制造极光战机
 Button/Tooltip/Pantheon=最高等级科技设施。<n/><n/><c val="FFFF80">允许从：</c><n/>  - 深空堡垒中制造泰坦
@@ -599,7 +601,7 @@ Effect/Name/ZenithParagonDelay=Zenith - Paragon (Delay)
 Effect/Name/ZenithParagonRB=Zenith - Paragon (RB)
 Effect/Name/ZenithParagonSA=Zenith - Paragon (SA)
 Effect/Name/ZenithParagonSet=Zenith - Paragon (Set)
-Error/CantTargetMaterializingUnit=不能以正在形体化的单位作为目标
+Error/CantTargetMaterializingUnit=不能以正在实体化的单位作为目标
 Race/Name/Keir=Keiron
 RequirementNode/Tooltip/And352081205NotCountBehaviorHarbingerJudgementModeStartQueuedOrBetterAtUnitNotCountBehaviorHarbingerJudgementModeStopQueuedOrBetterAtUnit=未在转变中
 RequirementNode/Tooltip/CountBehaviorApertureRequirementDummyQueuedOrBetterAtUnit1756462=至少10点能量。
@@ -613,7 +615,7 @@ RequirementNode/Tooltip/CountUpgradeDissonanceProjectorCompleteOnly3767743394=�
 RequirementNode/Tooltip/CountUpgradeLatentChargeCompleteOnly2407529555TechTreeCheat=在高塔中研究潜影充能
 RequirementNode/Tooltip/CountUpgradeMeridianConvergenceCompleteOnly4219486538=在伊利斯矩阵中研究聚能风暴
 RequirementNode/Tooltip/Eq2199705485CountUpgradeKeironBioArmorLevel1CompleteOnly1=Keiron一级生物护甲
-RequirementNode/Tooltip/Eq2528407907CountUnitAlias_AegisQueuedOrBetter0=无法使用虚空盾
+RequirementNode/Tooltip/Eq2528407907CountUnitAlias_AegisQueuedOrBetter0=无法使用埃吉斯护盾
 RequirementNode/Tooltip/Eq2851331946CountUpgradeKeironMechArmorLevel2CompleteOnly1=Keiron二级机械护甲
 RequirementNode/Tooltip/Eq2920017419CountUpgradeKeironMechWeaponsLevel2CompleteOnly1=Keiron二级机械武器
 RequirementNode/Tooltip/Eq3141436001CountUpgradeKeironShieldsLevel2CompleteOnly1=Keiron二级护盾
@@ -629,9 +631,9 @@ UI/Developing=研究中
 UI/HarvesterCountVespene_Keir=<img path="@@UI/ResourceIconNoBackground1_Keir" alignment="AbsoluteMiddle" width="20" height="20"/> Workers:<c val="%colorValue%"> %current%/%ideal%</c>
 UI/HelpMenuDialogTechGlossary_Control_Unit/Category/KeironUnits=Keiron单位
 UI/HelpMenuDialogTechTree_Control_Keir=Keiron科技树
-UI/Materializing=形体化中
+UI/Materializing=实体化中
 UI/ResourceSupplyToolTip_Keir=所有单位都需要花费补给。制造建筑以增加补给数量。
-UI/Shaping=塑形中
+UI/Shaping=塑造中
 UI/TechTreeTooltipCharges_Colon=Charges: 
 UI/TechTreeTooltipOr=OR
 UI/Upgrading=升级中
@@ -640,8 +642,8 @@ Unit/LifeArmorName/KeironArmor=Keiron护甲
 Unit/LifeArmorName/KeironBiologicalArmor=Keiron生物护甲
 Unit/LifeArmorName/KeironMechanicalArmor=Keiron机械护甲
 Unit/LifeArmorName/KeironStructureArmor=Keiron建筑护甲
-Unit/Name/Aegis=虚空盾
-Unit/Name/AegisShielded=虚空盾
+Unit/Name/Aegis=埃吉斯护盾
+Unit/Name/AegisShielded=埃吉斯护盾
 Unit/Name/Aperture=光能穿梭机
 Unit/Name/Aquifer=Aquifer
 Unit/Name/Atrium=中央教条
