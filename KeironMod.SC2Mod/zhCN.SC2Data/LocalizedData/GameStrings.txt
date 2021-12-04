@@ -45,12 +45,12 @@ Abil/Name/ReliquaryResearch=Reliquary Research
 Abil/Name/ReverbRB=Reverb Teleport
 Abil/Name/SanctumResearch=Sanctum Research
 Abil/Name/SonicImage=Sonic Image
-Alert/Text/BuildComplete_Keir=Structure complete.
-Alert/Text/ResearchComplete=Research complete.
-Alert/Text/TrainComplete_Keir=Unit complete.
-Alert/Text/TrainWorkerComplete=Unit complete.
-Alert/Text/UpgradeComplete=Upgrade complete.
-Alert/Text/WarpTrainComplete_Keir=Materialization complete.
+Alert/Text/BuildComplete_Keir=建造完成
+Alert/Text/ResearchComplete=研究完毕
+Alert/Text/TrainComplete_Keir=单位完成
+Alert/Text/TrainWorkerComplete=单位完成
+Alert/Text/UpgradeComplete=升级完成
+Alert/Text/WarpTrainComplete_Keir=形体化完成
 Attribute001/Name=Custom Race
 Attribute001/Value001/Name=Keiron
 Attribute001/Value002/Name=Default
@@ -58,20 +58,20 @@ Behavior/Name/AegisShield=虚空盾
 Behavior/Name/Beholder=观察者
 Behavior/Name/CitadelEnergized=已充能
 Behavior/Name/Disconnected=!已断连
-Behavior/Name/EmissaryOrbTint=Emissary Orb
+Behavior/Name/EmissaryOrbTint=伊风球
 Behavior/Name/HarbingerJudgementMode=突击者 - 审判模式
 Behavior/Name/HarbingerJudgementModeStart=突击者 - 审判模式开启
 Behavior/Name/HarbingerJudgementModeStop=突击者 - 审判模式关闭
 Behavior/Name/IsParagon=!无畏舰
 Behavior/Name/KeironMaterializing=形体化中
-Behavior/Name/NoCreate=!No Create
-Behavior/Name/ParadoxShieldBoost=Shield Boost
+Behavior/Name/NoCreate=!无法创造
+Behavior/Name/ParadoxShieldBoost=护盾过载
 Behavior/Name/ParagonHasSpawn=!无畏舰召唤完毕
-Behavior/Name/ParagonSpawnCount=!Paragon Spawn Count
-Behavior/Name/ParagonSpawnFollow=!Paragon Spawn Follow
+Behavior/Name/ParagonSpawnCount=!无畏舰再生队列
+Behavior/Name/ParagonSpawnFollow=!无畏舰再生跟随
 Behavior/Name/TitanWeapon=抑制光束
 Behavior/Tooltip/AegisShield=该单位由虚空盾保护，无法攻击
-Behavior/Tooltip/EmissaryOrbTint=This unit being targeted by an Emissary Orb.
+Behavior/Tooltip/EmissaryOrbTint=此单位正在被伊风球锁定。
 Behavior/Tooltip/KeironMaterializing=正在形体化
 Button/ChargeText/KeironProductionStructures=<d ref="$BehaviorStackCount:KeironUnitCharge$"/>
 Button/Name/ActivateShield=启动护盾
@@ -102,7 +102,7 @@ Button/Name/DevelopWraithChamber=灵能腔室
 Button/Name/DiscordMode=异调模式
 Button/Name/Edifice=塑造高塔
 Button/Name/Elysium=塑造伊利斯矩阵
-Button/Name/EmissaryOrb=Emissary Orb
+Button/Name/EmissaryOrb=伊风球
 Button/Name/Empyrean=塑造至高天
 Button/Name/FighterModeEcho=斗士模式
 Button/Name/Formulator=塑造气体转化室
@@ -110,16 +110,16 @@ Button/Name/Foundry=塑造铸造厂
 Button/Name/HarbingerExitJudgementMode=退出审判模式
 Button/Name/HarbingerJudgementMode=审判模式
 Button/Name/InhibitorBeam=抑制光束
-Button/Name/KeironBioArmorLevel1=升级一级生物装甲
-Button/Name/KeironBioArmorLevel2=升级二级生物装甲
-Button/Name/KeironBioArmorLevel3=升级三级生物装甲
+Button/Name/KeironBioArmorLevel1=升级一级生物护甲
+Button/Name/KeironBioArmorLevel2=升级二级生物护甲
+Button/Name/KeironBioArmorLevel3=升级三级生物护甲
 Button/Name/KeironBioWeaponsLevel1=升级一级生物武器
 Button/Name/KeironBioWeaponsLevel2=升级二级生物武器
 Button/Name/KeironBioWeaponsLevel3=升级三级生物武器
 Button/Name/KeironCharges=塑造充能
-Button/Name/KeironMechArmorLevel1=升级一级机械装甲
-Button/Name/KeironMechArmorLevel2=升级二级机械装甲
-Button/Name/KeironMechArmorLevel3=升级三级机械装甲
+Button/Name/KeironMechArmorLevel1=升级一级机械护甲
+Button/Name/KeironMechArmorLevel2=升级二级机械护甲
+Button/Name/KeironMechArmorLevel3=升级三级机械护甲
 Button/Name/KeironMechWeaponsLevel1=升级一级机械武器
 Button/Name/KeironMechWeaponsLevel2=升级二级机械武器
 Button/Name/KeironMechWeaponsLevel3=升级三级机械武器
@@ -157,7 +157,7 @@ Button/Name/Prison=画地为牢
 Button/Name/Projection=冲刺
 Button/Name/Reliquary=塑造遗迹
 Button/Name/Relocate=重新定位
-Button/Name/Reveal=显性
+Button/Name/Reveal=显形
 Button/Name/Reverb=混响
 Button/Name/Sanctum=塑造圣所
 Button/Name/SelectBuilderKeiron=选择建造者
@@ -174,7 +174,7 @@ Button/Tooltip/Aperture=运输单位，可以升级以使用虫洞。
 Button/Tooltip/ApertureTeleport=将目标单位传送给施法单位。消耗能量。成本因目标单位的大小而异。
 Button/Tooltip/ApertureUnloadAll=卸载全部单位
 Button/Tooltip/ApetureLoad=将单位装载进光能穿梭机
-Button/Tooltip/Aquifer=Can create workers. Can use x.
+Button/Tooltip/Aquifer=可以制造工作单位。
 Button/Tooltip/Atrium=高级科技设施。<n/><n/><c val="FFFF80">允许从：</c><n/>  - 深空堡垒中制造诱导者<n/>  - 深空堡垒中制造无量者
 Button/Tooltip/Aurora=战术攻击机。可以使用侦测器。<n/><n/><c val="FFFF80">可以攻击地面部队。</c>
 Button/Tooltip/Beholder=归零者获得<d ref="Behavior,Beholder,Duration"/> 秒的额外侦测距离和视野。
@@ -200,82 +200,82 @@ Button/Tooltip/Elytron=自动攻击成为无量战甲目标的战斗小队<n/><n
 Button/Tooltip/Emanator=在一个区域内提供视野的固定计时单位。<n/><n/><c val="FFE303">侦测者</c>
 Button/Tooltip/EmissaryOrb=对首要目标造成<d ref="Effect,EmissaryOrbDMG,Amount"/>点伤害。造成范围伤害。
 Button/Tooltip/Empyrean=高级空中科技设施。<n/><n/><c val="FFFF80">允许从：</c><n/>  - 深空堡垒中制造突袭者<n/>  - 深空堡垒中制造帕拉德舰
-Button/Tooltip/FighterModeEcho=The Echo resumes its usual form, allowing it to move and attack.
-Button/Tooltip/Formulator=Shaped over a Vespene Geyser to allow harvesting of vespene gas.
-Button/Tooltip/FormulatorRich=Warped in over a Vespene Geyser to allow harvesting of vespene gas.
-Button/Tooltip/Foundry=Advanced tech facility.<n/><n/><c val="FFFF80">Enables:</c><n/>  - Umbrae from the Citadel
-Button/Tooltip/Harbinger=Assault frigate. Can use Judgement Mode.<n/><n/><c val="FFFF80">Can attack ground and air units.</c>
-Button/Tooltip/HarbingerExitJudgementMode=Reverts the Harbinger back to its usual form.
-Button/Tooltip/HarbingerJudgementMode=While in Judgement Mode, Harbingers deal area damage vs air. They are also <d ref="-Behavior,HarbingerJudgementMode,Modification.MoveSpeedMultiplier+1*100"/>% slower and are unable to attack ground.
-Button/Tooltip/Inducer=Siege unit that launches an orb which must return before firing again.<n/><n/><c val="FFFF80">Can attack ground and air units.</c>
-Button/Tooltip/InhibitorBeam=The Titan's weapon slows enemy movement speed by <d ref="-Behavior,TitanWeapon,Modification.MoveSpeedMultiplier+1*100" precision="1"/>%, and their attack speed by <d ref="-Behavior,TitanWeapon,Modification.AttackSpeedMultiplier+1*100" precision="1"/>%.
-Button/Tooltip/KeironBioArmorLevel1=Upgrades the armor of biological units.
-Button/Tooltip/KeironBioArmorLevel2=Further upgrades the armor of biological units.
-Button/Tooltip/KeironBioArmorLevel3=Maximizes the armor of biological units.
-Button/Tooltip/KeironBioWeaponsLevel1=Upgrades the damage dealt by biological units.
-Button/Tooltip/KeironBioWeaponsLevel2=Further upgrades the damage dealt by biological units.
-Button/Tooltip/KeironBioWeaponsLevel3=Maximizes the damage dealt by biological units.
-Button/Tooltip/KeironCharges=The number of unit charges the structure is presently storing.
-Button/Tooltip/KeironMechArmorLevel1=Upgrades the armor of mechanical units.
-Button/Tooltip/KeironMechArmorLevel2=Further upgrades the armor of mechanical units.
-Button/Tooltip/KeironMechArmorLevel3=Maximizes the armor of mechanical units.
-Button/Tooltip/KeironMechWeaponsLevel1=Upgrades the damage dealt by mechanical units.
-Button/Tooltip/KeironMechWeaponsLevel2=Further upgrades the damage dealt by mechanical units.
-Button/Tooltip/KeironMechWeaponsLevel3=Maximizes the damage dealt by mechanical units.
-Button/Tooltip/KeironShieldsLevel1=Upgrades the shields of all Keiron units and structures.
-Button/Tooltip/KeironShieldsLevel2=Further upgrades the shields of all Keiron units and structures.
-Button/Tooltip/KeironShieldsLevel3=Maximizes the shields of all Keiron units and structures.
-Button/Tooltip/LatentCharge=Enables the <c val="FFFF80">Volt's</c> weapon to bounce to 1 additional target and deal <d ref="Effect,ElectronBoltBDMG,Amount"/> spell damage.
-Button/Tooltip/MaterializeAirUnits=A list of air units.
-Button/Tooltip/MaterializeAperture=Produced by the <c val="FFFF80">Outlet</c>.<n/><n/>Transport unit. Can be upgraded to use Keyhole.
-Button/Tooltip/MaterializeAurora=Produced by the <c val="FFFF80">Outlet</c>.<n/><n/>Tactical-strike aircraft. Can use Emanator.<n/><n/><c val="FFFF80">Can attack ground units.</c>
-Button/Tooltip/MaterializeEcho=Produced by the <c val="FFFF80">Conduit</c>.<n/><n/>Melee air fighter. Can use Discord Mode and Reverb.<n/><n/><c val="FFFF80">Can attack air units.</c>
-Button/Tooltip/MaterializeGroundUnits=A list of ground units.
-Button/Tooltip/MaterializeHarbinger=Produced by the <c val="FFFF80">Empyrean</c>.<n/><n/>Assault frigate. Can use Judgement Mode.<n/><n/><c val="FFFF80">Can attack ground and air units.</c>
-Button/Tooltip/MaterializeInducer=Produced by the <c val="FFFF80">Atrium</c>.<n/><n/>Siege unit which launches an orb that must return before firing again.<n/><n/><c val="FFFF80">Can attack ground and air units.</c>
-Button/Tooltip/MaterializeMeridian=Produced by the <c val="FFFF80">Elysium</c>.<n/><n/>Spell caster. Can use Beholder and Lightning Bolt. Can be upgraded to use Convergence.<n/><n/><c val="FFFF80">Can attack ground and air units.</c>
-Button/Tooltip/MaterializeMyriad=Produced by the <c val="FFFF80">Atrium</c>.<n/><n/>Siege unit. Can produce and attack with Elytra.<n/><n/><c val="FFFF80">Can attack ground units.</c>
-Button/Tooltip/MaterializeParadox=Produced by the <c val="FFFF80">Empyrean</c>.<n/><n/>Support unit. Can use Shield Boost and Prison.<n/><n/><c val="FFE303">Detector</c>
-Button/Tooltip/MaterializeParagon=Produced by the <c val="FFFF80">Zenith</c>.<n/><n/>Capital ship. Can use Emissary Orb.<n/><n/><c val="FFFF80">Can attack ground and air units.</c>
-Button/Tooltip/MaterializePariah=Produced by the <c val="FFFF80">Edifice</c>.<n/><n/>Light melee warrior. Can use Projection.<n/><n/><c val="FFFF80">Can attack ground units.</c>
-Button/Tooltip/MaterializePulsar=Produced by the <c val="FFFF80">Sanctum</c>.<n/><n/>Durable close range combat unit.<n/><n/><c val="FFFF80">Can attack ground units.</c>
-Button/Tooltip/MaterializeSubjecter=Produced by the <c val="FFFF80">Sanctum</c>.<n/><n/>Ranged anti-air support unit.<n/><n/><c val="FFFF80">Can attack ground and air units.</c>
-Button/Tooltip/MaterializeTitan=Produced by the <c val="FFFF80">Pantheon</c>.</n><n/>Heavy assault walker.<n/><n/><c val="FFFF80">Can attack ground units.</c>
-Button/Tooltip/MaterializeUmbra=Produced by the <c val="FFFF80">Foundry</c>.<n/><n/>Tactical cloaking anti-armored specialist.<n/><n/><c val="FFFF80">Can attack ground units.</c>
-Button/Tooltip/MaterializeVolt=Produced by the <c val="FFFF80">Edifice</c>.<n/><n/>Light ranged warrior.<n/><n/><c val="FFFF80">Can attack ground and air units.</c>
-Button/Tooltip/Meridian=Spell caster. Can use Beholder and Lightning Bolt. Can be upgraded to use Convergence.<n/><n/><c val="FFFF80">Can attack ground and air units.</c>
-Button/Tooltip/MeridianConvergence=Deals <d ref="Effect,MeridianConvergenceDMG,Amount"/> (+<d ref="Effect,MeridianConvergenceDMG,AttributeBonus[Mechanical]"/> vs Mechanical) damage in an area after channeling for <d ref="Effect,MeridianConvergenceCP,InitialDelay"/> seconds.
-Button/Tooltip/MeridianLightningBolt=Deals <d ref="Effect,MeridianLightningBoltInitDMG,Amount"/> damage to a primary target. Can bounce onto <d ref="Effect,MeridianLightningBoltData,ValidateMax"/> additional enemies, dealing <d ref="Effect,MeridianLightningBoltDMG,Amount"/> damage to each.
-Button/Tooltip/MeridianSycophant=Restores 5 energy when attacking units. Also reduces energy of attacked units.
-Button/Tooltip/Myriad=Siege unit. Can produce and attack with Elytra.<n/><n/><c val="FFFF80">Can attack ground units.</c>
-Button/Tooltip/Nullifier=Anti-ground defensive structure. <n/><n/><c val="ffff8a">Can attack ground units.</c>
-Button/Tooltip/Oculus=Able to grant vision of areas on the map at a long range.<n/><n/><c val="FFE303">Detector</c>
-Button/Tooltip/Outlet=Advanced air tech facility.<n/><n/><c val="FFFF80">Enables:</c><n/>  - Apertures from the Citadel<n/>  - Auroras from the Citadel
-Button/Tooltip/Pantheon=Highly advanced tech facility.<n/><n/><c val="FFFF80">Enables:</c><n/>  - Titans from the Citadel
-Button/Tooltip/Paradox=Support unit. Can use Shield Boost and Prison.<n/><n/><c val="FFE303">Detector</c>
-Button/Tooltip/ParadoxShield=Increases the target's shields by 100. Also grants +1 shield armor.
-Button/Tooltip/Paragon=Capital ship. Can use Emissary Orb.<n/><n/><c val="FFFF80">Can attack ground and air units.</c>
-Button/Tooltip/Pariah=Light melee warrior. Can use Projection.<n/><n/><c val="FFFF80">Can target ground units.</c>
-Button/Tooltip/PlaceEmanator=Emanators grant vision in an area. They are vulnerable to attack, but becomes permanently cloaked <d ref="Behavior,EmanatorFateDelay,Duration"/> seconds after placement.</n></n><c val="FFE303">Detector</c>
-Button/Tooltip/Prison=Channels an effect in an area. Enemy units that walk into it are unable to leave.
-Button/Tooltip/Projection=Allows the caster to move through other units at increased speed. Cannot attack while phased.
-Button/Tooltip/Pulsar=Durable close range combat unit.<n/><n/><c val="FFFF80">Can attack ground units.</c>
-Button/Tooltip/Reliquary=Upgrade tech facility.<n/><n/><c val="FFFF80">Enables:</c><n/>  - Nullifiers from the Converter<n/>  - Strati from the Converter
-Button/Tooltip/Relocate=Teleports the caster to the target <c val="FFFF80">Citadel</c>.
-Button/Tooltip/Reveal=Grants vision on an area on the map.
-Button/Tooltip/Reverb=Teleports the Echo back to its Sonic Image.
-Button/Tooltip/Sanctum=Tech facility.<n/><n/><c val="FFFF80">Enables:</c><n/>  - Pulsars from the Citadel<n/>  - Subjecters from the Citadel
-Button/Tooltip/SelectBuilderKeiron=Selects the unit constructing this structure.
-Button/Tooltip/ShapeAdvancedStructure=A list of advanced structures.
-Button/Tooltip/ShapeStructure=A list of basic structures.
-Button/Tooltip/SonicImage=Places a sonic image, which the Echo can teleport back to if it remains close by.
-Button/Tooltip/Stratus=Anti-air defensive structure. <n/><n/><c val="ffff8a">Can attack air units.</c><n/><c val="FFE303">Detector</c>
-Button/Tooltip/Subjecter=Ranged anti-air support unit.<n/><n/><c val="FFFF80">Can target ground and air units.</c>
-Button/Tooltip/Titan=Heavy assault walker.<n/><n/><c val="FFFF80">Can attack ground units.</c>
-Button/Tooltip/Umbra=Tactical cloaking anti-armored specialist.<n/><n/><c val="FFFF80">Can attack ground units.</c>
-Button/Tooltip/UmbraCloakingSystems=Maintains cloaking except after attacking. Weapon damage is increased while cloaked. Re-cloaks after <d ref="Validator,CasterHasDealtNoDamage,Value"/> seconds of not attacking.
-Button/Tooltip/Volt=Light ranged warrior.<n/><n/><c val="FFFF80">Can attack ground and air units.</c>
-Button/Tooltip/Zenith=Highly advanced tech facility.<n/><n/><c val="FFFF80">Enables:</c><n/>  - Paragons from the Citadel
+Button/Tooltip/FighterModeEcho=回声恢复正常形态，使其能够移动和攻击。
+Button/Tooltip/Formulator=塑造在气泉上方，允许获取气体。
+Button/Tooltip/FormulatorRich=塑造在气泉上方，允许获取气体。
+Button/Tooltip/Foundry=高级科技设施。<n/><n/><c val="FFFF80">允许从：</c><n/>  - 深空堡垒中制造幽影
+Button/Tooltip/Harbinger=攻击型护卫舰。可以使用审判模式。<n/><n/><c val="FFFF80">可以攻击地面于空中单位</c>
+Button/Tooltip/HarbingerExitJudgementMode=将突袭者变回正常模式
+Button/Tooltip/HarbingerJudgementMode=当处于审判模式，突袭者对空中单位造成范围伤害。但是造成 <d ref="-Behavior,HarbingerJudgementMode,Modification.MoveSpeedMultiplier+1*100"/>% 的减速并无法对地面单位进行攻击。
+Button/Tooltip/Inducer=发射球体的攻城单位，在再次发射前必须将球体返回。<n/><n/><c val="FFFF80">可以攻击地面于空中单位</c>
+Button/Tooltip/InhibitorBeam=泰坦的武器能够对敌方单位造成 <d ref="-Behavior,TitanWeapon,Modification.MoveSpeedMultiplier+1*100" precision="1"/>%的移动减速，与<d ref="-Behavior,TitanWeapon,Modification.AttackSpeedMultiplier+1*100" precision="1"/>%的攻击减速.
+Button/Tooltip/KeironBioArmorLevel1=升级生物单位的护甲
+Button/Tooltip/KeironBioArmorLevel2=进一步升级生物单位护甲
+Button/Tooltip/KeironBioArmorLevel3=使生物单位的护甲最大化
+Button/Tooltip/KeironBioWeaponsLevel1=升级生物单位造成的伤害
+Button/Tooltip/KeironBioWeaponsLevel2=进一步升级生物单位造成的伤害
+Button/Tooltip/KeironBioWeaponsLevel3=使生物单位造成的伤害最大化
+Button/Tooltip/KeironCharges=此建筑目前储存的充能层数
+Button/Tooltip/KeironMechArmorLevel1=升级机械单位的护甲
+Button/Tooltip/KeironMechArmorLevel2=进一步升级机械单位的护甲
+Button/Tooltip/KeironMechArmorLevel3=使机械单位的护甲最大化
+Button/Tooltip/KeironMechWeaponsLevel1=升级机械单位造成的伤害
+Button/Tooltip/KeironMechWeaponsLevel2=进一步升级机械单位造成的伤害
+Button/Tooltip/KeironMechWeaponsLevel3=使机械单位造成的伤害最大化
+Button/Tooltip/KeironShieldsLevel1=升级所有Keiron单位和建筑的护盾
+Button/Tooltip/KeironShieldsLevel2=进一步升级所有Keiron单位和建筑的护盾
+Button/Tooltip/KeironShieldsLevel3=使所有Keiron单位和建筑的护盾最大化
+Button/Tooltip/LatentCharge=允许 <c val="FFFF80">电狐</c>的武器对另一个目标造成<d ref="Effect,ElectronBoltBDMG,Amount"/>点伤害
+Button/Tooltip/MaterializeAirUnits=空中单位列表
+Button/Tooltip/MaterializeAperture=由<c val="FFFF80">虚空航标</c>生产。<n/><n/>运输单位。 可以升级以使用虫洞。
+Button/Tooltip/MaterializeAurora=由<c val="FFFF80">虚空航标</c>生产。<n/><n/>战术攻击机。可以使用侦测器<n/><n/><c val="FFFF80">可以攻击地面单位。</c>
+Button/Tooltip/MaterializeEcho=由<c val="FFFF80">数据中枢</c>生产。<n/><n/>空中近战战机。可以使用异调模式与混响。<n/><n/><c val="FFFF80">可以攻击空中单位</c>
+Button/Tooltip/MaterializeGroundUnits=地面单位列表
+Button/Tooltip/MaterializeHarbinger=由<c val="FFFF80">至高天</c>生产。<n/><n/>攻击型护卫舰。可以使用审判模式。<n/><n/><c val="FFFF80">可以攻击地面和空中单位。</c>
+Button/Tooltip/MaterializeInducer=由<c val="FFFF80">中央教条</c>生产。<n/><n/>发射球体的攻城单位，在再次发射前必须将球体返回。<n/><n/><c val="FFFF80">可以攻击地面和空中单位</c>
+Button/Tooltip/MaterializeMeridian=由<c val="FFFF80">伊利斯矩阵</c>生产。<n/><n/>施法单位。可以使用观察者与闪电弹技能。可以升级从而使用聚能风暴。<n/><n/><c val="FFFF80">可以攻击地面和空中单位</c>
+Button/Tooltip/MaterializeMyriad=由<c val="FFFF80">中央教条</c>.<n/><n/>攻城单位，可以生产并使用蝉翼攻击机。<n/><n/><c val="FFFF80">可以攻击地面单位。</c>
+Button/Tooltip/MaterializeParadox=由<c val="FFFF80">至高天</c>.<n/><n/>支援单位。可以使用护盾过载与画地为牢。<n/><n/><c val="FFE303">侦测单位</c>
+Button/Tooltip/MaterializeParagon=由<c val="FFFF80">天蓬</c>.<n/><n/>主力舰船。可以使用伊风球。<n/><n/><c val="FFFF80">可以攻击地面和空中单位。</c>
+Button/Tooltip/MaterializePariah=由<c val="FFFF80">高塔</c>.<n/><n/>轻型近战单位，可以使用冲刺。<n/><n/><c val="FFFF80">可以攻击地面单位。</c>
+Button/Tooltip/MaterializePulsar=由<c val="FFFF80">圣所</c>.<n/><n/>持久型近距离作战单位。<n/><n/><c val="FFFF80">可以攻击地面单位。</c>
+Button/Tooltip/MaterializeSubjecter=由<c val="FFFF80">圣所</c>.<n/><n/>远程防空支援单位。<n/><n/><c val="FFFF80">可以攻击地面和空中单位。</c>
+Button/Tooltip/MaterializeTitan=由<c val="FFFF80">诸神殿堂</c>.</n><n/>重型突击单位。<n/><n/><c val="FFFF80">可以攻击地面单位。</c>
+Button/Tooltip/MaterializeUmbra=由<c val="FFFF80">铸造厂</c>.<n/><n/>战术隐身与反护甲专家。<n/><n/><c val="FFFF80">可以攻击地面单位。</c>
+Button/Tooltip/MaterializeVolt=由<c val="FFFF80">高塔</c>.<n/><n/>轻型远程战斗单位。<n/><n/><c val="FFFF80">可以攻击地面和空中单位。</c>
+Button/Tooltip/Meridian=施法单位。可以使用观察者与闪电弹技能。可以升级从而使用聚能风暴。<n/><n/><c val="FFFF80">可以攻击地面和空中单位。</c>
+Button/Tooltip/MeridianConvergence=对范围内造成<d ref="Effect,MeridianConvergenceDMG,Amount"/> (+<d ref="Effect,MeridianConvergenceDMG,AttributeBonus[Mechanical]"/> vs Mechanical)点伤害与<d ref="Effect,MeridianConvergenceCP,InitialDelay"/>秒后。
+Button/Tooltip/MeridianLightningBolt=对首个目标造成<d ref="Effect,MeridianLightningBoltInitDMG,Amount"/>点伤害。可以对<d ref="Effect,MeridianLightningBoltData,ValidateMax"/>个额外单位造成<d ref="Effect,MeridianLightningBoltDMG,Amount"/>点伤害。
+Button/Tooltip/MeridianSycophant=攻击单位时可恢复5点能量。同时减少被攻击单位的能量。
+Button/Tooltip/Myriad=攻城单位，可以生产并使用蝉翼攻击机。<n/><n/><c val="FFFF80">可以攻击地面单位。</c>
+Button/Tooltip/Nullifier=对空防御建筑<n/><n/><c val="ffff8a">可以攻击地面单位。</c>
+Button/Tooltip/Oculus=能够给予地图上远距离的区域视野。<n/><n/><c val="FFE303">侦测单位</c>
+Button/Tooltip/Outlet=高级空中科技设施。<n/><n/><c val="FFFF80">允许从：</c><n/>  - 深空堡垒中制造光能穿梭机<n/>  - 深空堡垒中制造极光战机
+Button/Tooltip/Pantheon=最高等级科技设施。<n/><n/><c val="FFFF80">允许从：</c><n/>  - 深空堡垒中制造泰坦
+Button/Tooltip/Paradox=支援单位。可以使用护盾过载与画地为牢。<n/><n/><c val="FFE303">侦测单位</c>
+Button/Tooltip/ParadoxShield=为目标提高100点护盾值。同时获得+1点护盾护甲。
+Button/Tooltip/Paragon=主力舰船。可以使用伊风球。<n/><n/><c val="FFFF80">可以攻击地面和空中单位。</c>
+Button/Tooltip/Pariah=轻型近战单位，可以使用冲刺。<n/><n/><c val="FFFF80">可以攻击地面单位。</c>
+Button/Tooltip/PlaceEmanator=侦测器获得一块区域的视野，会受到伤害, 但在放置后<d ref="Behavior,EmanatorFateDelay,Duration"/>秒永久隐形</n></n><c val="FFE303">侦测单位</c>
+Button/Tooltip/Prison=在指定区域内产生效果。使进入其中的敌方单位无法离开。
+Button/Tooltip/Projection=允许施法者以更快的速度穿过其他单位。冲刺时不能攻击。
+Button/Tooltip/Pulsar=持久型近距离作战单位。<n/><n/><c val="FFFF80">可以攻击地面单位。</c>
+Button/Tooltip/Reliquary=升级科技等级设施。<n/><n/><c val="FFFF80">允许从：</c><n/>  - 转化者制造虚空炮台<n/>  - 转化者制造层云炮塔
+Button/Tooltip/Relocate=将施法者传送到目标<c val="FFFF80">深空堡垒</c>.
+Button/Tooltip/Reveal=在地图上的某一区域获得视野。
+Button/Tooltip/Reverb=将回声传送回它的声像。
+Button/Tooltip/Sanctum=科技设施<n/><n/><c val="FFFF80">允许从：</c><n/>  - 深空堡垒中制造脉冲星<n/>  - 深空堡垒中制造征服者
+Button/Tooltip/SelectBuilderKeiron=选择塑造该建筑的单位。
+Button/Tooltip/ShapeAdvancedStructure=高级建筑列表。
+Button/Tooltip/ShapeStructure=基础建筑列表。
+Button/Tooltip/SonicImage=放置一个声像，如果回声仍在附近则可以传送回来。
+Button/Tooltip/Stratus=对空防御设施。<n/><n/><c val="ffff8a">可以攻击空中单位。</c><n/><c val="FFE303">侦测单位</c>
+Button/Tooltip/Subjecter=远程防空支援单位。<n/><n/><c val="FFFF80">可以攻击地面和空中单位。</c>
+Button/Tooltip/Titan=重型突击单位。<n/><n/><c val="FFFF80">可以攻击地面单位。</c>
+Button/Tooltip/Umbra=战术隐身与反护甲专家。<n/><n/><c val="FFFF80">可以攻击地面单位。</c>
+Button/Tooltip/UmbraCloakingSystems=除攻击时保持隐身状态。隐身状态下武器伤害增加。 在<d ref="Validator,CasterHasDealtNoDamage,Value"/>秒没有攻击后重新恢复隐形。
+Button/Tooltip/Volt=轻型远程战斗单位。<n/><n/><c val="FFFF80">可以攻击地面和空中单位。</c>
+Button/Tooltip/Zenith=最高等级科技设施。<n/><n/><c val="FFFF80">允许从：</c><n/>  - 深空堡垒中制造无畏舰
 DocInfo/DescLong=Contains the gameplay data for the Keiron custom race.
 DocInfo/DescShort=2+
 DocInfo/Name=Keiron Data
@@ -599,56 +599,56 @@ Effect/Name/ZenithParagonDelay=Zenith - Paragon (Delay)
 Effect/Name/ZenithParagonRB=Zenith - Paragon (RB)
 Effect/Name/ZenithParagonSA=Zenith - Paragon (SA)
 Effect/Name/ZenithParagonSet=Zenith - Paragon (Set)
-Error/CantTargetMaterializingUnit=Can't target units that are materializing.
+Error/CantTargetMaterializingUnit=不能以正在形体化的单位作为目标
 Race/Name/Keir=Keiron
 RequirementNode/Tooltip/And352081205NotCountBehaviorHarbingerJudgementModeStartQueuedOrBetterAtUnitNotCountBehaviorHarbingerJudgementModeStopQueuedOrBetterAtUnit=未在转变中
 RequirementNode/Tooltip/CountBehaviorApertureRequirementDummyQueuedOrBetterAtUnit1756462=至少10点能量。
 RequirementNode/Tooltip/CountBehaviorEchoReverbCasterControllerCompleteOnlyAtUnit2145668228=必须拥有激活的声像。
-RequirementNode/Tooltip/CountBehaviorElytraAmmoDummyCompleteOnlyAtUnit3668520173=Elytra must have Ammo
+RequirementNode/Tooltip/CountBehaviorElytraAmmoDummyCompleteOnlyAtUnit3668520173=蝉翼攻击机必须拥有弹药
 RequirementNode/Tooltip/CountUnitAlias_CitadelCompleteOnly2790733192=深空堡垒
 RequirementNode/Tooltip/CountUnitAlias_GatewayCompleteOnly4260347518TechTreeCheat=Gateway
 RequirementNode/Tooltip/CountUpgradeAnisopteraWingsCompleteOnly2056493273=在中央教条中研究复翼
-RequirementNode/Tooltip/CountUpgradeApertureKeyholeCompleteOnly4277124587=Develop Keyhole at the Outlet
-RequirementNode/Tooltip/CountUpgradeDissonanceProjectorCompleteOnly3767743394=Develop Dissonance Projector at the Conduit
-RequirementNode/Tooltip/CountUpgradeLatentChargeCompleteOnly2407529555TechTreeCheat=Develop Latent Charge at the Edifice
-RequirementNode/Tooltip/CountUpgradeMeridianConvergenceCompleteOnly4219486538=Develop Convergence at the Elysium
-RequirementNode/Tooltip/Eq2199705485CountUpgradeKeironBioArmorLevel1CompleteOnly1=Keiron Biological Armor Level 1
-RequirementNode/Tooltip/Eq2528407907CountUnitAlias_AegisQueuedOrBetter0=No Aegis
-RequirementNode/Tooltip/Eq2851331946CountUpgradeKeironMechArmorLevel2CompleteOnly1=Keiron Mechanical Armor Level 2
-RequirementNode/Tooltip/Eq2920017419CountUpgradeKeironMechWeaponsLevel2CompleteOnly1=Keiron Mechanical Weapons Level 2
-RequirementNode/Tooltip/Eq3141436001CountUpgradeKeironShieldsLevel2CompleteOnly1=Keiron Shields Level 2
-RequirementNode/Tooltip/Eq3599731795CountUpgradeKeironBioWeaponsLevel1CompleteOnly1=Keiron Biological Weapons Level 1
-RequirementNode/Tooltip/Eq3830099429CountUpgradeKeironShieldsLevel1CompleteOnly1=Keiron Shields Level 1
-RequirementNode/Tooltip/Eq4139803115CountUpgradeKeironBioArmorLevel2CompleteOnly1=Keiron Biological Armor Level 2
-RequirementNode/Tooltip/Eq416967604CountUpgradeKeironMechWeaponsLevel1CompleteOnly1=Keiron Mechanical Weapons Level 1
-RequirementNode/Tooltip/Eq4230515576CountUpgradeKeironMechArmorLevel1CompleteOnly1=Keiron Mechanical Armor Level 1
-RequirementNode/Tooltip/Eq493131630CountUpgradeKeironBioWeaponsLevel2CompleteOnly1=Keiron Biological Weapons Level 2
-RequirementNode/Tooltip/LT1744328212CountUnitElytronQueuedOrBetterAtUnit3=Myriad must have fewer than 3 Elytra
+RequirementNode/Tooltip/CountUpgradeApertureKeyholeCompleteOnly4277124587=在虚空航标中研究虫洞
+RequirementNode/Tooltip/CountUpgradeDissonanceProjectorCompleteOnly3767743394=在数据中枢中研究异调投影
+RequirementNode/Tooltip/CountUpgradeLatentChargeCompleteOnly2407529555TechTreeCheat=在高塔中研究潜影充能
+RequirementNode/Tooltip/CountUpgradeMeridianConvergenceCompleteOnly4219486538=在伊利斯矩阵中研究聚能风暴
+RequirementNode/Tooltip/Eq2199705485CountUpgradeKeironBioArmorLevel1CompleteOnly1=Keiron一级生物护甲
+RequirementNode/Tooltip/Eq2528407907CountUnitAlias_AegisQueuedOrBetter0=无法使用虚空盾
+RequirementNode/Tooltip/Eq2851331946CountUpgradeKeironMechArmorLevel2CompleteOnly1=Keiron二级机械护甲
+RequirementNode/Tooltip/Eq2920017419CountUpgradeKeironMechWeaponsLevel2CompleteOnly1=Keiron二级机械武器
+RequirementNode/Tooltip/Eq3141436001CountUpgradeKeironShieldsLevel2CompleteOnly1=Keiron二级护盾
+RequirementNode/Tooltip/Eq3599731795CountUpgradeKeironBioWeaponsLevel1CompleteOnly1=Keiron一级生物武器
+RequirementNode/Tooltip/Eq3830099429CountUpgradeKeironShieldsLevel1CompleteOnly1=Keiron一级护盾
+RequirementNode/Tooltip/Eq4139803115CountUpgradeKeironBioArmorLevel2CompleteOnly1=Keiron二级生物武器
+RequirementNode/Tooltip/Eq416967604CountUpgradeKeironMechWeaponsLevel1CompleteOnly1=Keiron一级机械武器
+RequirementNode/Tooltip/Eq4230515576CountUpgradeKeironMechArmorLevel1CompleteOnly1=Keiron一级机械护甲
+RequirementNode/Tooltip/Eq493131630CountUpgradeKeironBioWeaponsLevel2CompleteOnly1=Keiron二级生物武器
+RequirementNode/Tooltip/LT1744328212CountUnitElytronQueuedOrBetterAtUnit3=无量战甲必须拥有少于三个的蝉翼攻击机
 UI/Charging=充能中
 UI/Developing=研究中
 UI/HarvesterCountVespene_Keir=<img path="@@UI/ResourceIconNoBackground1_Keir" alignment="AbsoluteMiddle" width="20" height="20"/> Workers:<c val="%colorValue%"> %current%/%ideal%</c>
-UI/HelpMenuDialogTechGlossary_Control_Unit/Category/KeironUnits=Keiron Units
-UI/HelpMenuDialogTechTree_Control_Keir=Keiron Tech Tree
+UI/HelpMenuDialogTechGlossary_Control_Unit/Category/KeironUnits=Keiron单位
+UI/HelpMenuDialogTechTree_Control_Keir=Keiron科技树
 UI/Materializing=形体化中
-UI/ResourceSupplyToolTip_Keir=All living units cost supply. Build tech structures to increase supply.
+UI/ResourceSupplyToolTip_Keir=所有单位都需要花费补给。制造建筑以增加补给数量。
 UI/Shaping=塑形中
 UI/TechTreeTooltipCharges_Colon=Charges: 
 UI/TechTreeTooltipOr=OR
 UI/Upgrading=升级中
 Unit/Category/KeironUnits=Keiron
-Unit/LifeArmorName/KeironArmor=Keiron Armor
-Unit/LifeArmorName/KeironBiologicalArmor=Keiron Biological Armor
-Unit/LifeArmorName/KeironMechanicalArmor=Keiron Mechanical Armor
-Unit/LifeArmorName/KeironStructureArmor=Keiron Structure Armor
+Unit/LifeArmorName/KeironArmor=Keiron护甲
+Unit/LifeArmorName/KeironBiologicalArmor=Keiron生物护甲
+Unit/LifeArmorName/KeironMechanicalArmor=Keiron机械护甲
+Unit/LifeArmorName/KeironStructureArmor=Keiron建筑护甲
 Unit/Name/Aegis=虚空盾
 Unit/Name/AegisShielded=虚空盾
 Unit/Name/Aperture=光能穿梭机
 Unit/Name/Aquifer=Aquifer
 Unit/Name/Atrium=中央教条
-Unit/Name/AuguryGunsLMWeapon=Augury Gun Weapon
+Unit/Name/AuguryGunsLMWeapon=奥格里火炮
 Unit/Name/Aurora=极光战机
-Unit/Name/AuroraAttackMissile=Halation Plasma
-Unit/Name/BulwarkBlastWeapon=Bulwark Blast
+Unit/Name/AuroraAttackMissile=光晕解离枪
+Unit/Name/BulwarkBlastWeapon=布沃克爆裂枪
 Unit/Name/Citadel=深空堡垒
 Unit/Name/Conduit=数据中枢
 Unit/Name/Converter=转化者
@@ -660,18 +660,18 @@ Unit/Name/ElectronBoltWeapon=闪电弹
 Unit/Name/Elysium=伊利斯矩阵
 Unit/Name/Elytron=蝉翼攻击机
 Unit/Name/Emanator=侦测器
-Unit/Name/EmanatorMissile=Emanator Missile
-Unit/Name/EmissaryOrb=Emissary Orb
-Unit/Name/Empyrean=Empyrean
-Unit/Name/EnthrallerQuillsLMWeapon=Enthraller Quill
+Unit/Name/EmanatorMissile=侦测器投射体
+Unit/Name/EmissaryOrb=伊风球
+Unit/Name/Empyrean=至高天
+Unit/Name/EnthrallerQuillsLMWeapon=飞羽导弹
 Unit/Name/Formulator=气体转化室
 Unit/Name/FormulatorRich=气体转化室
 Unit/Name/Foundry=铸造厂
 Unit/Name/Harbinger=突袭者
-Unit/Name/HeraldEnergyCannonsLMWeapon=Herald Energy Cannon Weapon
+Unit/Name/HeraldEnergyCannonsLMWeapon=先驱者能量炮
 Unit/Name/Inducer=诱导者
-Unit/Name/InducerAttackMissile=Gamut Orb
-Unit/Name/Meridian=Meridian
+Unit/Name/InducerAttackMissile=伽马能量球
+Unit/Name/Meridian=归零者
 Unit/Name/MeridianWeapon=归零者
 Unit/Name/Myriad=无量战甲
 Unit/Name/Nullifier=虚空炮台
@@ -680,50 +680,50 @@ Unit/Name/Outlet=虚空航标
 Unit/Name/Pantheon=诸神殿堂
 Unit/Name/Paradox=帕拉德舰
 Unit/Name/Paragon=无畏舰
-Unit/Name/ParagonAir=Paragon Air
-Unit/Name/ParagonGround=Paragon Ground
-Unit/Name/ParagonSpawn=!Paragon Spawn
+Unit/Name/ParagonAir=无畏舰对空武器
+Unit/Name/ParagonGround=无畏舰对地武器
+Unit/Name/ParagonSpawn=!无畏舰再生
 Unit/Name/Pariah=放逐者
 Unit/Name/PariahProjection=放逐者
 Unit/Name/Pulsar=脉冲星
 Unit/Name/Reliquary=遗迹
-Unit/Name/ReturnGamutOrb=Return Gamut Orb
+Unit/Name/ReturnGamutOrb=返回伽马能量球
 Unit/Name/Sanctum=圣所
-Unit/Name/ShadowCannonWeapon=Shadow Cannon
+Unit/Name/ShadowCannonWeapon=暗影加农炮
 Unit/Name/Stratus=层云炮塔
 Unit/Name/Subjecter=征服者
 Unit/Name/Titan=泰坦
-Unit/Name/TitanBlastWeapon=Titan Blast
+Unit/Name/TitanBlastWeapon=泰坦碎裂炮
 Unit/Name/Umbra=幽影
 Unit/Name/Volt=电狐
 Unit/Name/WeaponStratus=层云炮塔
 Unit/Name/Zenith=天蓬
-Unit/ShieldArmorName/KeironDispersionShields=Keiron Dispersion Shields
-UnitKillRank/Rank1_Keir=Advent
-UnitKillRank/Rank2_Keir=Anomaly
-UnitKillRank/Rank3_Keir=Enigma
-UnitKillRank/Rank4_Keir=Seraph
-UnitKillRank/Rank5_Keir=Singularity
+Unit/ShieldArmorName/KeironDispersionShields=Keiron 点防御护盾
+UnitKillRank/Rank1_Keir=初生
+UnitKillRank/Rank2_Keir=超卓
+UnitKillRank/Rank3_Keir=神奥
+UnitKillRank/Rank4_Keir=圣殿
+UnitKillRank/Rank5_Keir=起源
 Upgrade/Name/AmplifiedSphere=球状增幅
 Upgrade/Name/AnisopteraWings=复翼
 Upgrade/Name/ApertureKeyhole=虫洞
 Upgrade/Name/DissonanceProjector=异调投影
 Upgrade/Name/ExaltedShield=荣光护盾
-Upgrade/Name/KeironBioArmor=Keiron生物装甲
-Upgrade/Name/KeironBioArmorBase=Keiron基础生物装甲
-Upgrade/Name/KeironBioArmorLevel1=Keiron一级生物装甲
-Upgrade/Name/KeironBioArmorLevel2=Keiron二级生物装甲
-Upgrade/Name/KeironBioArmorLevel3=Keiron三级生物装甲
+Upgrade/Name/KeironBioArmor=Keiron生物护甲
+Upgrade/Name/KeironBioArmorBase=Keiron基础生物护甲
+Upgrade/Name/KeironBioArmorLevel1=Keiron一级生物护甲
+Upgrade/Name/KeironBioArmorLevel2=Keiron二级生物护甲
+Upgrade/Name/KeironBioArmorLevel3=Keiron三级生物护甲
 Upgrade/Name/KeironBioWeapons=Keiron生物武器
 Upgrade/Name/KeironBioWeaponsBase=Keiron基础生物武器
 Upgrade/Name/KeironBioWeaponsLevel1=Keiron一级生物武器
 Upgrade/Name/KeironBioWeaponsLevel2=Keiron二级生物武器
 Upgrade/Name/KeironBioWeaponsLevel3=Keiron三级生物武器
-Upgrade/Name/KeironMechArmor=Keiron机械装甲
-Upgrade/Name/KeironMechArmorBase=Keiron基础机械装甲
-Upgrade/Name/KeironMechArmorLevel1=Keiron一级机械装甲
-Upgrade/Name/KeironMechArmorLevel2=Keiron二级机械装甲
-Upgrade/Name/KeironMechArmorLevel3=Keiron三级机械装甲
+Upgrade/Name/KeironMechArmor=Keiron机械护甲
+Upgrade/Name/KeironMechArmorBase=Keiron基础机械护甲
+Upgrade/Name/KeironMechArmorLevel1=Keiron一级机械护甲
+Upgrade/Name/KeironMechArmorLevel2=Keiron二级机械护甲
+Upgrade/Name/KeironMechArmorLevel3=Keiron三级机械护甲
 Upgrade/Name/KeironMechWeapons=Keiron机械武器
 Upgrade/Name/KeironMechWeaponsBase=Keiron基础机械武器
 Upgrade/Name/KeironMechWeaponsLevel1=Keiron一级机械武器
@@ -738,35 +738,35 @@ Upgrade/Name/LatentCharge=潜影充能
 Upgrade/Name/MeridianConvergence=聚能风暴
 Upgrade/Name/ModifiedGait=步态调节
 Upgrade/Name/WraithChamber=灵能腔室
-Weapon/Name/AuguryGuns=Augury Guns
-Weapon/Name/BulwarkBlast=Bulwark Blast
-Weapon/Name/ConverterDissolutionRay=Dissolution Ray
+Weapon/Name/AuguryGuns=奥格里火炮
+Weapon/Name/BulwarkBlast=布沃克爆裂枪
+Weapon/Name/ConverterDissolutionRay=溶解射线
 Weapon/Name/ElectronBolt=闪电弹
 Weapon/Name/ElytraRelease=蝉翼攻击机
-Weapon/Name/EnthrallerQuills=Enthraller Quills
-Weapon/Name/ForceBlast=Force Blaster
-Weapon/Name/GamutOrb=Gamut Orb
-Weapon/Name/HalationPlasma=Halation Plasma
+Weapon/Name/EnthrallerQuills=飞羽导弹
+Weapon/Name/ForceBlast=高能冲击枪
+Weapon/Name/GamutOrb=伽马能量球
+Weapon/Name/HalationPlasma=光晕解离枪
 Weapon/Name/HarbingerDummyWeapon=Harbinger Dummy Weapon
-Weapon/Name/HeraldEnergyCannons=Herald Energy Cannons
+Weapon/Name/HeraldEnergyCannons=先驱者能量炮
 Weapon/Name/Lunge=Lunge
 Weapon/Name/MeridianWeapon=谄媚者
-Weapon/Name/NullifierWeapon=Nullifier - Weapon
-Weapon/Name/NullifierWeaponDisplay=Nullifier - Weapon
+Weapon/Name/NullifierWeapon=虚空炮台 - 武器
+Weapon/Name/NullifierWeaponDisplay=虚空炮台 - 武器
 Weapon/Name/NullifierWeaponDummy=Nullifier - Weapon Dummy
-Weapon/Name/ParagonAirWeapon=Paragon - Air Weapon
-Weapon/Name/ParagonGroundWeapon=Paragon - Ground Weapon
-Weapon/Name/Psythe=Psythe
-Weapon/Name/ReverberatorFlare=Reverberator Flare
-Weapon/Name/SeperationBeam=Seperation Beam
-Weapon/Name/ShadowCannon=Shadow Cannon
-Weapon/Name/StratusWeapon=Stratus - Weapon
-Weapon/Name/StratusWeaponDummy=Stratus - Weapon Dummy
-Weapon/Name/TitanBlast=Titan Blast
+Weapon/Name/ParagonAirWeapon=无畏舰 - 对空武器
+Weapon/Name/ParagonGroundWeapon=无畏舰 - 对地武器
+Weapon/Name/Psythe=侍刃
+Weapon/Name/ReverberatorFlare=混频失稳器
+Weapon/Name/SeperationBeam=分离光束
+Weapon/Name/ShadowCannon=暗影加农炮
+Weapon/Name/StratusWeapon=层云炮塔 - 武器
+Weapon/Name/StratusWeaponDummy=层云炮塔 - 虚像武器
+Weapon/Name/TitanBlast=泰坦碎裂炮
 Weapon/Name/TitanWeapon=抑制光束
 Weapon/Name/TitanWeaponDummy=Titan - Weapon Dummy
 Weapon/Name/WeaponFacingDummy=Weapon Facing Dummy
-Weapon/Tip/GamutOrb=May only attack when its orb is docked.
+Weapon/Tip/GamutOrb=必须在伽马能量球返回后才能攻击
 error/iscitadel=必须以虚空堡垒作为目标
 error/isplayercitadel=必须以己方虚空堡垒作为目标
 error/text/notenoughenergy=
